@@ -17,7 +17,7 @@ def csv_to_json(csvFilePath, jsonFilePath):
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
 
-
+#testing
 def check_minimum_distance(x, y):
     if x < y:
         return x
